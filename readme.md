@@ -1,5 +1,10 @@
 # Projekt Zero To Junior - Egzamin 1
 
+## Deploy
+https://radiodrac.github.io/z2j-egzamin1/
+
+## Zadanie
+
 1.  W title (nazwa karty) ma wartość “Egzamin 1”
 2.  Viewport ma ustawiony tak, żeby wspierała responsywność
 3.  Posiada menu z trzema zakładkami
