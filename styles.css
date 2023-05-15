@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -13,6 +15,7 @@
 body {
     margin: 0;
     background-color: var(--light-shade);
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -25,6 +28,11 @@ body {
 header {
     background-color: var(--dark-shade);
     padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: var(--light-shade);
 }
 
 nav ul {
@@ -45,13 +53,14 @@ nav li {
 
 nav li.current-tab {
     background-color: var(--light-shade);
+    font-weight: 700;
 }
 
 nav li.current-tab a {
     color: var(--main-color);
 }
 
-nav li:hover {
+nav li:hover:not(.current-tab) {
     background-color: var(--dark-accent);
 }
 
