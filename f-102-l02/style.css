@@ -1,0 +1,37 @@
+*, *::after, *::before {
+    box-sizing: content-box;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    background-color: rgb(139, 195, 74);
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+article {
+    background-color: rgb(185, 122, 92);
+    border: 0.6rem solid rgb(165, 42, 42);
+    padding: 0.6rem;
+    margin: 0.6rem;
+    width: 320px;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    overflow-x: auto;
+}
