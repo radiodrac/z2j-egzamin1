@@ -1,5 +1,8 @@
 # Galeria kotów
 
+## Deploy:
+https://radiodrac.github.io/z2j-egzamin1/f-102-l02/
+
 ## Zadanie:
 
 ![galeria kotów](https://github.com/radiodrac/z2j-egzamin1/assets/124902071/345b9dfb-4274-4600-a682-c0ccf0a9c7b5)
